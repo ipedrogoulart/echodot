@@ -1,0 +1,315 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+.contai{
+    width: 100%;
+    height: 80vh;
+    /*background-image: linear-gradient(#000000b3,#000000b3),url(cyberpunk.jpg);*/
+    background-image: url('echo-header.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+.rou{
+    display:flex;
+    height:88%;
+    align-items: center;
+    
+}
+
+.coluna{
+    flex-basis: 50%;
+    
+}
+
+.h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+
+.coluna p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.button-header{
+    width: 230px;
+    height: 200px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: -80px;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+
+
+
+.sec2{
+    flex-direction: column;
+}
+
+.sec-i3{
+    display: flex;
+    padding: 0% 9% 0% 9%;
+    background-color: #ffffff7a;
+    margin: 1% 0 1% 0;
+   
+}
+
+@media screen and (max-width: 994px) {
+    .sec-i3{
+      flex-direction: column;
+    }
+}    
+
+.txt-i3{
+    margin: 11% 0 0 4%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    color: #424141;
+    
+    
+    
+}
+.txt-i3 h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.foto-acer{
+    
+    max-width: 100%;
+    width: 600px
+  
+}
+
+.sec-i5{
+    display: flex;
+    padding: 1% 9% 1% 9%;
+    background-color: #162a2c;
+    margin: 1% 0 1% 0;
+    
+}
+
+@media screen and (max-width: 994px) {
+    .sec-i5{
+      flex-direction: column;
+    }
+}    
+
+.txt-i5{
+    margin: 11% 3% 0% 0%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    color: #cfcfcf;
+    max-width: 600px;
+}
+@media screen and (max-width: 994px) {
+    .txt-i5{
+      margin-bottom: 4%;
+    }
+}    
+
+.txt-i5 h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.sec-i7{
+    display: flex;
+    padding: 0% 9% 0% 9%;
+    margin: 1% 0 1% 0;
+    background-color: #ffffff7a;
+    
+}
+@media screen and (max-width: 994px) {
+    .sec-i7{
+      flex-direction: column;
+    }
+}    
+.txt-i7{
+    margin: 11% 0 0 4%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    color: #424141;
+
+    
+}
+.txt-i7 h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+.marca{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 994px) {
+    .marca{
+      width: 350px;
+      height: auto;
+      flex-direction: column;
+      margin-left: 30%;
+      
+    }
+}    
+
+.marca img{
+    margin-top: 3%;
+    max-width: 100%;
+}
+
+
+.marca1{
+    width: 170px;
+    height: 100%;
+}
+
+.marca2{
+    width: 160px;
+    height: 100%;
+}
+
+.marca3{
+    width: 160px;
+    height: 80%;
+}
+
+.marca4{
+    width: 190px;
+    height: 93%;
+}
+
+@media screen and (max-width: 994px){
+    .marca img{
+        max-width: 100%;
+        width: 50%;
+        margin-top: 6%;
+    }
+}
+
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+
+
+
+.sec3-title{
+    padding-top: 30px;
+    text-align: center;
+    background-color: #162a2c;
+    font-size: 30px;
+    line-height: 35px;
+    color: #cfcfcf;
+    
+}
+
+@media screen and (max-width: 664px){
+    .sec3-title h2{
+        line-height: 40px;
+
+    }
+}
+
+.sec3-title p{
+    font-size: 20px;
+    color: #cfcfcf;
+}
+
+.cardi{
+    flex: 1 1 150px;
+    width: 20px;
+    padding: 2%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 449px){
+    .cardi{
+        border-bottom: solid 2px #aaa9a963;
+
+    }
+}
+
+#btn{
+    background-color: #cfcfcf;
+    border: solid 1px #cfcfcf;
+    margin-top: 10px;
+    color: #162a2c;
+    font-size: 11px;
+    width: 81px;
+    height: 17px;
+    line-height: 0.1;
+}
+
+#btn:hover{
+    background-color: #a09f9f;
+    border: solid 1px #a09f9f;
+}
+
+
+.modal-header{
+    background-color: #cfcfcf; 
+}
+
+.modal-header h1{
+    color: #000000;
+}
+
+.modal-body{
+    background-color: #1c3638;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-body p{
+    font-size: 15px;
+}
+
+
+footer{
+    height: 200px;
+    color: #000000;
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: #051a1a54;
+    border-top: solid 2px #00000038;
+    line-height: 30px;
+}
+
+.footer-class a{
+    cursor: pointer;
+    outline: none;
+    color:black;
+    
+}
