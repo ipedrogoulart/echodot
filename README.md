@@ -1,5 +1,6 @@
-# echodot
+#Treino
 PT-BR
 
-Este repositório guarda o desenvolvimento de uma vitrine online para a Echo Dot 3ª geração da marca Amazon. 
-HTML - CSS - JS (bootstrap)
+Este repositório guarda o desenvolvimento de uma vitrine online para a venda da Echo Dot 3ª Geração da marca Amazon, mais conhecida como Alexa.
+
+
