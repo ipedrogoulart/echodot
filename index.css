@@ -141,7 +141,7 @@
     color: #6b6b6b;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .txt-i3 h2{
         font-size: 24px;
         text-align: left;
@@ -196,23 +196,29 @@
     line-height: 15px;
 }
 
-.sec-i9{
+
+.sec-i9 h3{
+    margin-bottom: 0px;
+    margin-top: 4%;
+    text-align: center;
+    color: #6b6b6b;
+}
+
+.sec-i9-anato{
     width: 100%;
     height: auto;
-    
-    margin-top: 4%;
     box-sizing: border-box;
     display:flex;
     align-items: center;
 }
 @media screen and (max-width:650px){
-    .sec-i9{
+    .sec-i9-anato{
         flex-direction: column;
         height: auto;
     }
 }
 
-.sec-i9 img{
+.sec-i9-anato img{
     width: 100%;
 }
 
